@@ -2,13 +2,13 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:patrol/patrol.dart';
-//com.nikahforever
+//com.example.myapp
 void main() {
  
  patrolTest(
   'First Test',
   ($)async{
-      const String appId='com.nikahforever';
+      const String appId='com.example.myapp';
       await $.native.pressHome();
       await $.native.openApp(appId: appId);
       await $.pumpAndSettle();

@@ -1,6 +1,6 @@
 app:
   android: apps/app-debug-patrol.apk
-  androidPackage: com.nikahforever
+  androidPackage: com.example.myapp
 
 test:
   target: integration_test/example_test.dart

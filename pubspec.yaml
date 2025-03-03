@@ -71,9 +71,9 @@ flutter:
 
   
 patrol:
-  app-name: Nikah Forever
+  app-name: myapp
   android:
-    package_name: com.nikahforever
+    package_name: com.example.myapp
   # To add assets to your application, add an assets section, like this:
   assets:
     - apps/
